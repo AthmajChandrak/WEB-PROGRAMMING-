@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+body {
+font-family: Arial;
+}
+.container {
+width: 70%;
+margin: 30px auto;
+background-color: #dff6f7;
+padding: 30px;
+}
+h2 {
+text-align: center;
+}
+.row {
+display: flex;
+align-items: center;
+margin: 15px 0;
+}
+.row label {
+width: 180px;
+}
+input, select, textarea {
+padding: 5px;
+}
+textarea {
+width: 200px;
+height: 70px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h2>Registration</h2>
+<form>
+<div class="row">
+<label>Name:</label>
+<input type="text" name="name">
+</div>
+<div class="row">
+<label>Mobile Number:</label>
+<input type="number" name="mobile">
+</div>
+<div class="row">
+<label>Email:</label>
+<input type="email" name="email">
+</div>
+<div class="row">
+<label>Age:</label>
+<input type="number" name="age">
+</div>
+<div class="row">
+<label>Gender:</label>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> others
+</div>
+<div class="row">
+<label>Date of Birth:</label>
+<input type="date" name="dob">
+</div>
+<div class="row">
+<label>Address:</label>
+<textarea name="address"></textarea>
+</div>
+<div class="row">
+<label>Study:</label>
+<select>
+<option>B.Tech</option>
+<option>BCA</option>
+<option>MCA</option>
+</select>
+</div>
+<div class="row">
+<label>Department:</label>
+<select>
+<option>CS</option>
+<option>EC</option>
+<option>ME</option>
+</select>
+</div>
+<div class="row">
+<label>Upload CV:</label>
+<input type="file">
+</div>
+<div class="row">
+<label>Programming Languages:</label>
+<input type="checkbox"> HTML
+<input type="checkbox"> PHP
+<input type="checkbox"> CSS
+<input type="checkbox"> Flutter
+</div>
+<div class="row">
+<label>Language:</label>
+<input type="checkbox"> English
+<input type="checkbox"> Malayalam
+<input type="checkbox"> Arabic
+<input type="checkbox"> Hindi
+</div>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</div>
+</body>

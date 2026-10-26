@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Event</title>
+</head>
+<body style="text-align: center;">
+<h2>Mouse Handling</h2>
+<img id="img-tag"
+src="https://media.tenor.com/XWf6r4-GPV0AAAAM/aadu-3-dude.gif"
+onmouseover="changeImg()"
+onmouseout="setOld()"
+width="220"
+height="230"
+alt="Image" />
+<script>
+function changeImg() 
+{
+document.getElementById("img-tag").src ="https://media.tenor.com/c7A0K0jYsigAAAAM/what-malayalammmootty.gif";
+}
+function setOld() 
+{
+document.getElementById("img-tag").src ="https://media1.tenor.com/m/Gtta_ALjTAsAAAAd/balram-vs-tharadas-mammootty.gif";
+}
+</script>
+</body>
+</html>
